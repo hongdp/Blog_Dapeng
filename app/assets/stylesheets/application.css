@@ -19,8 +19,10 @@ html, body, ul, li, h1, h2, h3, h4 {
 	padding: 0;
 	text-align: center;
 	list-style: none;
+	font-family:sans-serif;
 }
 a {
+	font-size:18px;
 	color: black;
 	font-weight: bold;
 }
@@ -28,6 +30,7 @@ a:hover {
 	color: red;
 	text-decoration: underline;
 }
+
 .left {
 	float: left;
 	position: relative;
@@ -41,14 +44,12 @@ a:hover {
 .clear {
 	clear: both;
 }
-p {
+p,table {
 	background: white;
-	font: 18px arial, sans-serif;
+	font-size: 18px;
 	color: #808080;
 }
-h1{
 
-}
 #wrapper {
 	text-align: left;
 	margin: auto;
